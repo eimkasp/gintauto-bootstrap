@@ -1,15 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <div class="alert alert-primary" role="alert">
-        A simple primary alert—check it out!
+  </head>
+  <body>
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col col-4">
+          <div class="row">
+            <div class="col col-2">
+              <i class="las la-home fs-1"></i>
+            </div>
+            <div class="col col-10">
+              <p class="lh-1"><strong> Kažkur šalia Kauno </strong></p>
+              <p class="lh-1">jei tiksliau - Giraitėj</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col col-2">
+              <i class="las la-phone fs-1"></i>
+            </div>
+            <div class="col col-10">
+              <p class="lh-1"><strong>+370 800 80000</strong></p>
+              <p class="lh-1">tik naktimis neskambinkit...</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col col-2">
+              <i class="las la-envelope fs-1"></i>
+            </div>
+            <div class="col col-10">
+              <p class="lh-1"><strong>pagalba@pigiai.lt</strong></p>
+              <p class="lh-1">rašykit savo klausimus</p>
+            </div>
+          </div>
+        </div>
+        <div class="col col-8">
+          <form class="row">
+            <div class="col col-6">
+              <div class="input-group input-group-lg pb-3">
+                <input type="text" class="form-control" id="exampleInputName" />
+              </div>
+              <div class="input-group input-group-lg pb-3">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                />
+              </div>
+              <div class="input-group input-group-lg pb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="exampleInputTopic"
+                />
+              </div>
+            </div>
+            <div class="col col-6">
+              <div class="form-floating">
+                <textarea
+                  class="form-control"
+                  placeholder="čia rašykite savo žinutę"
+                  id="Textarea"
+                  style="height: 175px"
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary mt-5 align-self-end">
+                Siųsti žinutę
+              </button>
+            </div>
+          </form>
+        </div>
       </div>
-</body>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
